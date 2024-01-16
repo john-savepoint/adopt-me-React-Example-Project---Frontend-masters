@@ -1,22 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom";
-import PropTypes from "prop-types";
-
-const Pet = ({ name, breed, age }) => {
-  return (
-    <div>
-      <h1>{name}</h1>
-      <h2>{breed}</h2>
-      <h2>{age}</h2>
-    </div>
-  );
-};
-
-Pet.propTypes = {
-  name: PropTypes.string.isRequired,
-  breed: PropTypes.string.isRequired,
-  age: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-};
+import Pet from "./Pet";
 
 const App = () => (
   <div className="normal">
@@ -29,4 +13,4 @@ const App = () => (
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(React.createElement(App));
+root.render(<App />);
