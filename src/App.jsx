@@ -2,14 +2,6 @@ import React from "react";
 import { createRoot } from "react-dom";
 import PropTypes from "prop-types";
 
-// const Pet = ({ name, breed, age }) => {
-//   return React.createElement("div", {}, [
-//     React.createElement("h1", {}, name),
-//     React.createElement("h2", {}, breed),
-//     React.createElement("h2", {}, age),
-//   ]);
-// };
-
 const Pet = ({ name, breed, age }) => {
   return (
     <div>
