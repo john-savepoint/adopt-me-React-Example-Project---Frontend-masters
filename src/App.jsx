@@ -6,9 +6,9 @@ const App = () => {
   return (
     <div className="normal">
       <h1>Adopt Me!</h1>
-      <Pet name="Luna" breed="Husky" age={10} />
+      {/* <Pet name="Luna" breed="Husky" age={10} />
       <Pet name="Spark" breed="Labrador" age={25} />
-      <Pet name="Doink" breed="Foxy" age={30} />
+      <Pet name="Doink" breed="Foxy" age={30} /> */}
       <SearchParams />
     </div>
   );
