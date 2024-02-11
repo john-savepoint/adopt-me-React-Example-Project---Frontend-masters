@@ -27,7 +27,7 @@
     "vite": "^5.0.11"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.20.1",
+    "@tanstack/react-query": "^4.36.1",
     "prop-types": "^15.8.1",
     "query": "github:tanstack/react-query",
     "react": "^18.2.0",
